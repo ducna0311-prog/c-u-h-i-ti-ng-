@@ -100,15 +100,6 @@ const quizData = [
     ]
   },
   {
-    question: "taxi",
-    answers: [
-      { text: "出租车", correct: true },
-      { text: "打电话", correct: false },
-      { text: "对不起", correct: false },
-      { text: "火车站", correct: false }
-    ]
-  },
-  {
     question: "to, lớn",
     answers: [
       { text: "大", correct: true },
@@ -318,10 +309,10 @@ const quizData = [
   {
     question: "taxi",
     answers: [
-      { text: "火车站", correct: true },
+      { text: "出租车", correct: true },
       { text: "打电话", correct: false },
       { text: "对不起", correct: false },
-      { text: "出租车", correct: false }
+      { text: "火车站", correct: false }
     ]
   },
   {
@@ -716,7 +707,7 @@ const quizData = [
     answers: [
       { text: "听", correct: true },
       { text: "喝", correct: false },
-      { text: "听", correct: false },
+      { text: "和", correct: false },
       { text: "说", correct: false }
     ]
   },
@@ -936,24 +927,7 @@ const quizData = [
       { text: "天前", correct: false }
     ]
   },
-  {
-    question: "có",
-    answers: [
-      { text: "有", correct: true },
-      { text: "这", correct: false },
-      { text: "在", correct: false },
-      { text: "块", correct: false }
-    ]
-  },
-  {
-    question: "tháng",
-    answers: [
-      { text: "月", correct: true },
-      { text: "五", correct: false },
-      { text: "卖", correct: false },
-      { text: "日", correct: false }
-    ]
-  }
+ 
 ];
 
 /* --- BƯỚC 2: LẤY CÁC THÀNH PHẦN HTML --- */
